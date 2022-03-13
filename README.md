@@ -1,4 +1,4 @@
-# AmySpark ✨
+# AmySpark✨
 This project took a lot to do, and im in actual pain! NEVER learning HTML and CSS again i prefer dying :D
 <br>
 <br>
