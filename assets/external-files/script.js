@@ -1,6 +1,5 @@
 window.onload = startFunction()
 
-
 var darkThemeButton = document.getElementById("bulbImg")
 darkThemeButton.onclick = function() {
 	document.body.classList.toggle("dark-theme")
@@ -8,13 +7,11 @@ darkThemeButton.onclick = function() {
 	if (document.body.classList.contains("dark-theme")) {
 		PlayAudio("assets/audio/lightbulb_off.mp3")
 		darkThemeButton.src = "assets/art/lightBulb.gif"
-		document.cookie = "darkMode=true"
 	}
 
 	else {
 		PlayAudio("assets/audio/lightbulb_on.mp3")
 		darkThemeButton.src = "assets/art/darkBulb.gif"
-		document.cookie = "darkMode=false"
 	}
 
 }
@@ -33,19 +30,6 @@ function startFunction() {
 	else {
 		goloElement.src = 'assets/art/amulogo.gif'
 	}
-
-	let cookiesToRead = document.cookie;
-
-	console.log(cookiesToRead)
-
-	if (cookiesToRead.slice(19) == "true") {
-		document.body.classList.toggle("dark-theme")
-	}
-
-	else {
-		
-	}
-
 }
 
 function onClick(elementClicked) {
