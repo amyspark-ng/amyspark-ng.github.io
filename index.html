@@ -6,24 +6,28 @@
 	<head>
 		<title>AmySpark | Web - Home</title>
 		<link rel = "stylesheet" href = "assets/external-files/style.css">
-		<link rel = "icon" type="image/x-icon" href="assets/AubreyGIF.png">
+		<link rel = "icon" type = "image/x-icon" href = "assets/art/favicon.ico">
 	</head>
 
 	<body>
-				
+		
+		<p id = "textThingy">2022 | Made with ❤️ and <b>pain</b>.</p>
+
 		<div id = "card">
 			
-			<img id = "pfp" onclick="javascript:onPfpClick()" src = "https://avatars.githubusercontent.com/u/92493175?v=4" width = "250" height = "250">
+			<img id = "pfp" onclick="javascript:onClick('PFP')" src = "https://avatars.githubusercontent.com/u/92493175?v=4" width = "250" height = "250">
 
-			<img id = "golo">
+			<img id = "golo" onclick = "javascript:onClick('LOGO')">
 		
 			<!-- <img src = "amulogo.gif"> -->
-			<!-- <img src = "funyAmulogo.gif"> -->
+			<!-- <img src = "assets/art/funyAmulogo.gif"> -->
 
 			<hr id = "hr">
+			
+			<img id = "bulbImg" onclick = "javascript:onClick('BULB')" src = "assets/art/darkBulb.gif"> 
 
 			<div id = "mainText">
-				<h1>—heyo! my name is <span id = "amyText">Amy</span>~</h1>
+				<h1>—heyo! my name is <span id = "amyText" onclick="javascript:PlayAudio('assets/audio/vineboom.mp3')">Amy</span>~</h1>
 				
 				<br>
 	
@@ -31,7 +35,7 @@
 	
 				<br>
 	
-				<h2>I'm currently learning <span id = "csharpText">C#</span> using the Unity Game Engine, <span id = "htmlText">HTML</span> and <span id = "cssText">CSS</span> from time to time, this website was part of that learning, im no graphic designer so this probably looks bad LOL</h2>
+				<h2>I started coding with <span id = "cppText">C++</span> and then jumped on <span id = "csharpText">C#</span> using the Unity Game Engine and trying <span id = "htmlText">HTML</span> and <span id = "cssText">CSS</span> from time to time, this website was part of that learning, im no graphic designer so this probably looks bad LOL</h2>	
 	
 				<br>
 	
@@ -74,7 +78,7 @@
 					
 		</div>  <!-- End of CardDiv -->
 
-		<script type = "text/javascript" src = "assets/external-files/index.js"></script>
+		<script type = "text/javascript" src = "assets/external-files/script.js"></script>
 
 	</body>
 

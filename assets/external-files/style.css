@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
 
+/* HEY HEY HEY HEY HEY YOU */
+/* If you're an actual web developer and have a bit of respect for yourself, i wouldn't recommend you looking at this file */
+/* Like, at all, this page is hold together using glue and duct tape, i am aware of this, so sorry for it ig :') */
+
 /* #region PageStuff */
 
 /* Fun fact! Idk what any of this means */
@@ -9,16 +13,32 @@
 	box-sizing: border-box
 }
 
-:root {
+:root {	
 	background-color: rgb(81, 67, 206);
+	
+	--backgroundImage: url("../art/backgroundGif.gif");
+	--cardColor: rgba(117, 108, 245, 0.87);
+	--linkColor: rgb(209, 238, 251);
+	--visitedLinkColor: rgb(198, 155, 253);
+	--colorText: rgb(234, 240, 255);
+}
+
+.dark-theme {
+	background-color: rgb(31, 30, 49);
+
+	--backgroundImage: url("../art/darkBackgroundStatic.png");
+	--cardColor: rgba(15, 15, 15, 0.89);
+	--linkColor: rgb(222, 240, 248);
+	--visitedLinkColor: rgb(173, 154, 216);
+	--colorText: rgb(243, 247, 255);
 }
 
 :link {
-	color: rgb(209, 238, 251);
+	color: var(--linkColor);
 }
 
 :visited {
-	color: rgb(198, 155, 253);
+	color: var(--visitedLinkColor);
 }
 
 html, body {
@@ -28,7 +48,7 @@ html, body {
 	justify-content: center;
 	align-items: center;
 	font-family: 'Fredoka';
-	background-image: url("../backgroundGif.gif");
+	background-image: var(--backgroundImage);
 	background-size: cover;
 	color: rgb(234, 240, 255);
 }
@@ -37,7 +57,7 @@ html, body {
 
 #card {
 	border: 2.5px solid rgb(234, 240, 255);
-	background: rgba(117, 108, 245, 0.87);
+	background: var(--cardColor);
 
 	border-radius: 15px 15px 0px 15px;
 	width: 1224px;
@@ -72,7 +92,12 @@ html, body {
 
 /* #region MainTextSpans */
 #amyText {
-	color:rgb(190, 137, 251);
+	color:rgb(255, 134, 229);
+	cursor: pointer;
+}
+
+#cppText {
+	color: rgb(255, 106, 150);
 }
 
 #csharpText {
@@ -104,4 +129,24 @@ html, body {
 
 #firstList {
 	padding-left: 15px;
+}
+
+#golo {
+	cursor: pointer;
+}
+
+#bulbImg {
+	cursor: pointer;
+	width: 50px;
+	height: 65px;
+	position: absolute;
+	opacity: 85%;
+	transform: translate(1120px, 310px);	
+}
+
+#textThingy {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	font-size: 18px;
 }
