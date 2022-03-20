@@ -46,7 +46,12 @@ _V3.0:_
 - Added little explanation on README.md on why is it OMORI themed
 - Added an easter egg when clicking the bulb many times
 
-_V3.1:_ Typo lol
+_V3.1:_ 
+- Typo lol
+
+_V3.2:_ 
+- Some values that changed
+- Changed something on the README that looked badly
 
 ## Easter-Eggs:
 <details>
@@ -58,5 +63,5 @@ _V3.1:_ Typo lol
 
 - If you click my name it will do a vineboom sound effect (very funny)
 
-- If you click the bulb 30 times it will stop working and if you click it 50 times it will straight up shatter
-</details>
+- If you click the bulb 15 times and 5 clicks after it will shatter
+<details>
