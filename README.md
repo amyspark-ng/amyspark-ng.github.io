@@ -52,6 +52,7 @@ _V3.0:_
 - Added little text saying that this page is hosted on github (cool page)
 - Added little explanation on README.md on why is it OMORI themed
 - Added an easter egg when clicking the bulb many times
+- Added random button on social media part
 
 _V3.1:_ 
 - Typo lol
@@ -65,6 +66,10 @@ _V3.3:_
 - Changed some texts here and there
 - Tried to make the README nicer-looking
 </details>
+
+_V3.4:_
+- Forgot putting the random button in the changelog of V3.0
+- I wanna die
 
 <br>
 
