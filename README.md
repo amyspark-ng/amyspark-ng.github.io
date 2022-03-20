@@ -42,9 +42,11 @@ _V2.1:_
 
 _V3.0:_
 - Changed the text about me
-- Added little text saying that this page is hoted on github (cool page)
+- Added little text saying that this page is hosted on github (cool page)
 - Added little explanation on README.md on why is it OMORI themed
 - Added an easter egg when clicking the bulb many times
+
+_V3.1:_ Typo lol
 
 ## Easter-Eggs:
 <details>
