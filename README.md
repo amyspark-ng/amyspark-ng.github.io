@@ -4,6 +4,14 @@ This project took a lot to do, and im in actual pain! NEVER learning HTML and CS
 <br>
 _though..._
 
+<details>
+
+<summary>-Why is it Omori-themed?</summary>
+As a little parenthesis i felt like this was something i needed "specify" and it's why is it omori themed, well it's just because as stated on the old version of the page, i like pretty things and i find omori very pretty, as for now (03/15/22) i have played only 3 hours of omori and i still don't know the story, but i really like the style and overall feeling of it, i hope i don't get "copyrighted" or something LOL
+<br>
+
+</details>
+
 ## — Credits:
 
 _Background Page, Page's favicon and lightbulb:_ - **OMOCAT** ([TW](https://twitter.com/_omocat))
@@ -32,13 +40,21 @@ _V2.1:_
 - Bug on the funny logo not loading
 - Edited README.md to not 'spoil' the easter eggs on the page
 
+_V3.0:_
+- Changed the text about me
+- Added little text saying that this page is hoted on github (cool page)
+- Added little explanation on README.md on why is it OMORI themed
+- Added an easter egg when clicking the bulb many times
+
 ## Easter-Eggs:
 <details>
-	<summary>SPOILER i guess</summary>
+<summary>SPOILER i guess</summary>
 	
 - If you click on the PFP thingy it will do an anim (TODO THO LOL)
 
 - If you click on my "logo" it will do a splash anim with its sfx
 
 - If you click my name it will do a vineboom sound effect (very funny)
+
+- If you click the bulb 30 times it will stop working and if you click it 50 times it will straight up shatter
 </details>

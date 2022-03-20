@@ -2,16 +2,26 @@
 
 <html>
 
-	
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
 	<head>
 		<title>AmySpark | Web - Home</title>
 		<link rel = "stylesheet" href = "assets/external-files/style.css">
 		<link rel = "icon" type = "image/x-icon" href = "assets/art/favicon.ico">
+		<link rel = "shortcut icon" type = "image/x-icon" href = "assets/art/favicon.ico">
 	</head>
 
 	<body>
 		
-		<p id = "textThingy">2022 | Made with ❤️ and <b>pain</b>.</p>
+		<p id = "textThingy">2022 | Made with ❤️ and <b>pain</b> - Hosted on 
+			<a href = "https://github.com/amySpark-ng/amySpark-ng.github.io" target = "_blank">
+				<span id = "hostGithub">
+					<b>
+						Github
+					</b>
+				</span>
+			</a>
+		</p>
 
 		<div id = "card">
 			
@@ -28,18 +38,14 @@
 
 			<div id = "mainText">
 				<h1>—heyo! my name is <span id = "amyText" onclick="javascript:PlayAudio('assets/audio/vineboom.mp3')">Amy</span>~</h1>
+				<br>
 				
+				<!-- will save this for later hehe -->
+				<!-- <h2>Coder girl, looking forward to do cool stuff on the future :)</h2> -->
+				<!-- <h2>I started coding with <span id = "cppText">C++</span> and then jumped on <span id = "csharpText">C#</span> using the Unity Game Engine and trying <span id = "htmlText">HTML</span> and <span id = "cssText">CSS</span> from time to time, this website was part of that learning, im no graphic designer so this probably looks bad LOL</h2>	 -->
+				<h2>I'm from colombia, i like <span id = "codingText">coding</span> <span class = "bracketsText">(very fun activity definetely doesn't stress me out)</span>, i play video-games from time to time <span class = "bracketsText">(very rarely)</span> i try my best to be nice and talk to people and make friends and stuff y'know, i'm trying to be a game-dev thingy?? i like pretty stuff like drawings and things qwkejwqkej i ran out of things to say</h2>
 				<br>
-	
-				<h2>Coder girl, looking forward to do cool stuff on the future :)</h2>
-	
-				<br>
-	
-				<h2>I started coding with <span id = "cppText">C++</span> and then jumped on <span id = "csharpText">C#</span> using the Unity Game Engine and trying <span id = "htmlText">HTML</span> and <span id = "cssText">CSS</span> from time to time, this website was part of that learning, im no graphic designer so this probably looks bad LOL</h2>	
-	
-				<br>
-	
-				<h2>Yeah that's all, im zero interesting, uhhh social media!</h2>
+				<h2>so yeah! that's all, social media moment (more about me soon :)</h2>
 			</div>
 
 			<br>
@@ -72,6 +78,13 @@
 							<h1>Itch.io!</h1>
 						</a>	
 					</li>
+
+					<li onclick = "javascript:onClick('randomBtn')" >
+						<a id = "randomBtn" href = "#"> 
+							<h1>Random!</h1>
+						</a>
+					</li>
+
 				</div>
 			
 			</ul>
@@ -79,7 +92,6 @@
 		</div>  <!-- End of CardDiv -->
 
 		<script type = "text/javascript" src = "assets/external-files/script.js"></script>
-
 	</body>
 
 </html>

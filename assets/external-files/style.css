@@ -30,7 +30,7 @@
 	--cardColor: rgba(15, 15, 15, 0.89);
 	--linkColor: rgb(222, 240, 248);
 	--visitedLinkColor: rgb(173, 154, 216);
-	--colorText: rgb(243, 247, 255);
+	--colorText: rgb(184, 184, 184);
 }
 
 :link {
@@ -149,4 +149,16 @@ html, body {
 	bottom: 8px;
 	left: 16px;
 	font-size: 18px;
+}
+
+.bracketsText {
+	color: rgb(203, 209, 224);
+}
+
+#codingText {
+	color: rgb(160, 211, 253);
+}
+
+#randomBtn {
+	cursor: pointer;
 }
