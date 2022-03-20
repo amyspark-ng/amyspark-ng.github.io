@@ -65,11 +65,12 @@ _V3.3:_
 - Collapsable changelog
 - Changed some texts here and there
 - Tried to make the README nicer-looking
-</details>
 
 _V3.4:_
 - Forgot putting the random button in the changelog of V3.0
 - I wanna die
+
+</details>
 
 <br>
 
