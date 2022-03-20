@@ -6,11 +6,13 @@ _though..._
 
 <details>
 
-<summary>-Why is it Omori-themed?</summary>
-As a little parenthesis i felt like this was something i needed "specify" and it's why is it omori themed, well it's just because as stated on the old version of the page, i like pretty things and i find omori very pretty, as for now (03/15/22) i have played only 3 hours of omori and i still don't know the story, but i really like the style and overall feeling of it, i hope i don't get "copyrighted" or something LOL
+<summary>Why is it OMORI themed?</summary>
+As a little parenthesis i felt like this was something i needed "specify" and it's why is it OMORI themed, well it's just because as stated on the old version of the page, i like pretty things and i find omori very pretty, as for now (03/15/22) i have played only 3 hours of omori and i still don't know the story, but i really like the style and overall feeling of it, i hope i don't get "copyrighted" or something LOL
 <br>
 
 </details>
+
+<br>
 
 ## — Credits:
 
@@ -24,9 +26,14 @@ _CSS Help:_ - **LajBel** ([TW](https://twitter.com/lajbel_land))
 
 _Rest of the page:_ - **me, [AmySpark](https://amySpark-ng.github.io)**
 
+<br>
+
 ## Changelog:
 
 _V1.0:_ Initial commit, added page, all the stuff lol
+
+<details>
+<summary>Full changelog - Of the page AND the github repo</summary>
 
 _V1.1:_ Uhhh i honestly don't remember to be fair LOL
 
@@ -53,9 +60,17 @@ _V3.2:_
 - Some values that changed
 - Changed something on the README that looked badly
 
+_V3.3:_
+- Collapsable changelog
+- Changed some texts here and there
+- Tried to make the README nicer-looking
+</details>
+
+<br>
+
 ## Easter-Eggs:
 <details>
-<summary>SPOILER i guess</summary>
+<summary>EASTER EGGS - Spoilers (i think?)</summary>
 	
 - If you click on the PFP thingy it will do an anim (TODO THO LOL)
 
