@@ -54,6 +54,9 @@ _V3.0:_
 - Added an easter egg when clicking the bulb many times
 - Added random button on social media part
 
+<details>
+<summary>V3.X</summary>
+
 _V3.1:_ 
 - Typo lol
 
@@ -69,6 +72,13 @@ _V3.3:_
 _V3.4:_
 - Forgot putting the random button in the changelog of V3.0
 - I wanna die
+
+_V3.6:_
+- Deleted some stuff on the javascript file
+- Fixed a little the collapsable thing of the README
+- I wanna die (part 2)
+
+</details>
 
 </details>
 
