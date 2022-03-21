@@ -1,49 +1,36 @@
 window.onload = startFunction()
 
-// window.addEventListener("keydown", function (event) {
-// 	// let repeat = event.repeat;
-	
-// 	if (event.defaultPrevented) {
-// 	  return; // Do nothing if the event was already processed
-// 	}
-
-// 	if (event.ctrlKey && event.) {
-// 		alert("oenqage")
-// 	}
-
-// });
-
 var timesbulbpress = 0;
 
-window.addEventListener('keydown', function(event) {
-	console.log("keypressed")
+// window.addEventListener('keydown', function(event) {
+// 	console.log("keypressed")
 	
-	if (event.defaultPrevented) {
-		return
-	}
+// 	if (event.defaultPrevented) {
+// 		return
+// 	}
 
-	if (event.ctrlKey) {
-		console.log("stuff pressed ctrl very cool")
-	}
+// 	if (event.ctrlKey) {
+// 		console.log("stuff pressed ctrl very cool")
+// 	}
 	
-	if (event.altKey) {
-		console.log("ELKIN")
-	}
+// 	if (event.altKey) {
+// 		console.log("ELKIN")
+// 	}
 
-	if (event.altKey) {
-		// alert("ALT KEY HAS BEEN PRESSED")
-	}
+// 	if (event.altKey) {
+// 		// alert("ALT KEY HAS BEEN PRESSED")
+// 	}
 
-	else if (event.ctrlKey && event.key === "c") {
-		alert("sus among us ")
-	}
+// 	else if (event.ctrlKey && event.key === "c") {
+// 		alert("sus among us ")
+// 	}
 
-	// if (event.key === "a") {
-	// 	console.log("a key was pressed")
-	// }
-	event.preventDefault();
+// 	// if (event.key === "a") {
+// 	// 	console.log("a key was pressed")
+// 	// }
+// 	event.preventDefault();
 
-});
+// });
 
 function startFunction() {
 	let goloElement = document.getElementById("golo");
@@ -95,41 +82,7 @@ function startFunction() {
 
 function onClick(elementClicked) {
 	
-	if (elementClicked == "PFP") {
-
-		// let randomNum = Math.floor(Math.random() * (6 - 1) + 1)
-		// console.log(randomNum)
-	
-		// switch(randomNum) {
-		// 	case 1:
-		// 	window.open("https://twitter.com/amyspark_ng", "_blank");
-		// 	break;
-			
-		// 	case 2:
-		// 	window.open("https://amychan-a.newgrounds.com", "_blank");
-		// 	break;
-			
-		// 	case 3:
-		// 	window.open("https://github.com/amySpark-ng", "_blank");
-		// 	break;
-			
-		// 	case 4:
-		// 	window.open("https://amyspark-ng.itch.io/", "_blank");
-		// 	break;
-			
-		// 	case 5:
-		// 	goloElement.src = 'assets/art/funyAmulogo.gif'
-		// 	break;
-			
-		// 	case 6:
-		// 	window.open("https://github.com/amySpark-ng/amySpark-ng.github.io", "_blank");
-		// 	break;
-		// }
-
-		// ^ What originally used to happen, i have some new plans for it now tho so yeah in some time
-	}
-
-	else if (elementClicked == "LOGO") {
+	if (elementClicked == "LOGO") {
 		PlayAudio("assets/audio/splash_sfx.mp3")
 	}
 
