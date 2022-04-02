@@ -4,7 +4,33 @@
 /* If you're an actual web developer and have a bit of respect for yourself, i wouldn't recommend you looking at this file */
 /* Like, at all, this page is hold together using glue and duct tape, i am aware of this, so sorry for it ig :') */
 
-/* #region PageStuff */
+/* #region ANIMATIONS */
+@keyframes startAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes logoAnim {
+	1% {
+		
+	}
+	
+	50% {
+	}
+	
+	100% {
+
+	}
+}
+
+/* #endregion */
+
+/* #region IMPORTANT PAGE STUFF */
 
 /* Fun fact! Idk what any of this means */
 * {
@@ -13,24 +39,46 @@
 	box-sizing: border-box
 }
 
+/* uhhhhhhhhhhhhh */
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
 :root {	
 	background-color: rgb(81, 67, 206);
 	
 	--backgroundImage: url("../art/backgroundGif.gif");
+	--backgroundSize: cover;
 	--cardColor: rgba(117, 108, 245, 0.87);
-	--linkColor: rgb(209, 238, 251);
-	--visitedLinkColor: rgb(198, 155, 253);
+	
 	--colorText: rgb(234, 240, 255);
+	--linkColor: rgb(188, 234, 255);
+	--visitedLinkColor: rgb(198, 155, 253);
+	
+	--codingColor: rgb(151, 208, 255);
+	--gamesColor: rgb(255, 90, 140);
+	--bracketsColor: rgb(180, 190, 214);
 }
 
 .dark-theme {
-	background-color: rgb(31, 30, 49);
+	background-color: rgb(29, 28, 54);
 
 	--backgroundImage: url("../art/darkBackgroundStatic.png");
-	--cardColor: rgba(15, 15, 15, 0.89);
-	--linkColor: rgb(222, 240, 248);
-	--visitedLinkColor: rgb(173, 154, 216);
-	--colorText: rgb(184, 184, 184);
+	--backgroundSize: none;
+	--cardColor: rgba(11, 10, 14, 0.897);
+
+	--colorText: rgb(255, 255, 255);
+	--linkColor: rgb(188, 234, 255);
+	--visitedLinkColor: rgb(173, 145, 238);
+
+	--codingColor: rgb(141, 200, 248);
+	--gamesColor: rgb(255, 106, 150);
+	--bracketsColor: rgb(160, 169, 190);
+}
+
+.logoAnimClass {
+	animation: logoAnim ease 1s;
 }
 
 :link {
@@ -49,13 +97,31 @@ html, body {
 	align-items: center;
 	font-family: 'Fredoka';
 	background-image: var(--backgroundImage);
-	background-size: cover;
+	background-size: var(--backgroundSize);
 	color: rgb(234, 240, 255);
+	scroll-behavior: smooth;
+}
+
+/* If there was any */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	background: #ffffff41;
 }
 
 /* #endregion PageStuff */
 
+/* #region MAIN CARD THINGS */
 #card {
+	/* Starting Animation */
+	animation: startAnim ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+	
 	border: 2.5px solid rgb(234, 240, 255);
 	background: var(--cardColor);
 
@@ -64,60 +130,85 @@ html, body {
 	height: 700px;
 
 	padding: 20px;
+
+	margin-bottom: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
+/* PFP */
 #pfp {	
 	border: 5px solid rgb(255, 255, 255);
 	border-radius: 50%;
-	width: 260px;
-	max-width:260px;
+	
+	margin-left: 8px;
+	margin-bottom: 2px;
 
-	height: 260px;
+	width: 262px;
+	height: 264px;
 	cursor: pointer;
+}
+
+#logo {
+	cursor: pointer;
+	margin-left: 10px;
 }
 
 /* Horizontal dotted rule */
 #hr {
-	padding-bottom: 15px;
+	margin-bottom: 3px;
+	margin-top: 10px;
 	width: 1175px;
 	border: 6px dashed;
 	border-style: none none dotted;
-	color: rgb(234, 240, 255);
+	
+	color: rgb(255, 255, 255);
 	opacity: 0.5;
-}
-
-#mainText {
-	padding-top: 10px;
-}
-
-/* #region MainTextSpans */
-#amyText {
-	color:rgb(255, 134, 229);
-	cursor: pointer;
-}
-
-#cppText {
-	color: rgb(255, 106, 150);
-}
-
-#csharpText {
-	color:rgb(150, 42, 238)
-}
-
-#htmlText {
-	color: rgb(255, 190, 106);
-}
-
-#cssText {
-	color:rgb(119, 213, 241)
 }
 
 /* #endregion */
 
+/* #region MainTextSpans */
+
+/* Basically the whole text thingy */
+#mainText {
+	margin-top: 10px;
+}
+
+#amyText {
+	color:rgb(255, 134, 229);
+}
+
+#codingText {
+	color: var(--codingColor)
+}
+
+#gamesText {
+	color: var(--gamesColor)
+}
+
+.interactableText:hover {
+	text-decoration: underline;
+}
+
+.bracketsText:hover {
+	text-decoration: line-through;
+}
+
+.bracketsText {
+	color: var(--bracketsColor)
+}
+
+/* #endregion */
+
+/* #region List stuff (ty LajBel) */
+ul {
+	list-style-image: url('/assets/art/darkBulb.gif');
+}
+
 .list {
 	display: flex;
 	margin-left: 25px;
-	height: 100px;
 	flex-wrap: wrap;
 }
 
@@ -131,9 +222,13 @@ html, body {
 	padding-left: 15px;
 }
 
-#golo {
+#randomBtn {
 	cursor: pointer;
 }
+
+/* #endregion */
+
+/* #region ETC STUFF */
 
 #bulbImg {
 	cursor: pointer;
@@ -141,24 +236,25 @@ html, body {
 	height: 65px;
 	position: absolute;
 	opacity: 85%;
-	transform: translate(1120px, 310px);	
+
+	top: 84%;
+	left: 83%;
 }
 
-#textThingy {
+/* "Footer" text (is not actually a footer)  */
+#footText {
 	position: absolute;
-	bottom: 8px;
-	left: 16px;
+	margin-left: 4px;
+	margin-bottom: 3px;
 	font-size: 18px;
+
+	bottom: 0.7%;
+	left: 0.2%
 }
 
-.bracketsText {
-	color: rgb(203, 209, 224);
-}
-
-#codingText {
-	color: rgb(160, 211, 253);
-}
-
-#randomBtn {
+#duck {
+	font-size: 65px;
 	cursor: pointer;
 }
+
+/* #endregion */

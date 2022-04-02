@@ -1,14 +1,15 @@
-# AmySpark's website thingy kjksdjsl ✨
-This project took a lot to do, and im in actual pain! NEVER learning HTML and CSS again i prefer dying :D
-<br>
-<br>
-_though..._
+# AmySpark's website thingy ✨
+I'm not quite the most professional person in this world BUT i do like learning some things, so i made this kind of personal website-portfolio-presentation thingy as a form of learning HTML, CSS and JS, hope you like it :) i inverted a lot of time on the front-end and CSS styling
+
+Btw, this is a long-term project, which means that it's getting updated "constantly" or at least a lot of times in the past, so yeah 
+
+Additional little temporal note: The link colors will be "deleted" and be replaced for icons in the future, sorry if they hurt your eyes or look ugly :(
 
 <details>
 
 <summary>Why is it OMORI themed?</summary>
-As a little parenthesis i felt like this was something i needed "specify" and it's why is it OMORI themed, well it's just because as stated on the old version of the page, i like pretty things and i find omori very pretty, as for now (03/15/22) i have played only 3 hours of omori and i still don't know the story, but i really like the style and overall feeling of it, i hope i don't get "copyrighted" or something LOL
-<br>
+
+As a little parenthesis i wanted to add is tell you why is it OMORI themed, it's very simple, i just like omori, i find it very nice and pretty, i love the colors, characters and story, even tho as for now (03/26/2022) i have only played 3 hours of the game i still love a lot of things about it, i just hope i don't get copyrighted or some thing like that lOL
 
 </details>
 
@@ -26,28 +27,26 @@ _CSS Help:_ - **LajBel** ([TW](https://twitter.com/lajbel_land))
 
 _Rest of the page:_ - **me, [AmySpark](https://amySpark-ng.github.io)**
 
-<br>
-
 ## Changelog:
 
-_V1.0:_ Initial commit, added page, all the stuff lol
+_V1.0 (03-12-22)_ Initial commit, added page, all the stuff lol
 
 <details>
 <summary>Full changelog - Of the page AND the github repo</summary>
 
-_V1.1:_ Uhhh i honestly don't remember to be fair LOL
+_V1.1_ Uhhh i honestly don't remember to be fair LOL
 
-_V2.0:_
+_V2.0 (03-13-22)_
 - Changed the presentation text
 - Added dark theme (it was very painful)
 - Some sound effects (easter-egg stuff)
 - Added the "Made with love" text
 
-_V2.1:_
+_V2.1 (03-13/14/15-22)_
 - Bug on the funny logo not loading
 - Edited README.md to not 'spoil' the easter eggs on the page
 
-_V3.0:_
+_V3.0 (03-22-22)_
 - Changed the text about me
 - Added little text saying that this page is hosted on github (cool page)
 - Added little explanation on README.md on why is it OMORI themed
@@ -57,6 +56,7 @@ _V3.0:_
 <details>
 <summary>V3.X</summary>
 
+<!-- Too lazy to mark all of these -->
 _V3.1:_ 
 - Typo lol
 
@@ -80,9 +80,14 @@ _V3.6:_
 
 </details>
 
-</details>
+_V4.0:_
+- Changed the main text again because i cringe at myself way too much
+- The background image on dark mode was zoomed in, now it's fixed
+- Added underline when hovering on some texts
+- Re-factored a LOT of JS (just fixed general things) and CSS (little margin details and positioning) 
+- Duck
 
-<br>
+</details>
 
 ## Easter-Eggs:
 <details>
@@ -94,5 +99,7 @@ _V3.6:_
 
 - If you click my name it will do a vineboom sound effect (very funny)
 
-- If you click the bulb 15 times and 5 clicks after it will shatter
-<details>
+- If you click the bulb 15 times and some clicks after it will shatter
+
+- When you load the page there's a change that instead of my introduction text there will be only "Duck" and if you click it you will get D u c k
+</details>
