@@ -80,7 +80,7 @@ _V3.6:_
 
 </details>
 
-_V4.0:_
+_V4.0 (04-2-22):_
 - Changed the main text again because i cringe at myself way too much
 - The background image on dark mode was zoomed in, now it's fixed
 - Added underline when hovering on some texts
