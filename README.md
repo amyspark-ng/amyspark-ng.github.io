@@ -25,5 +25,3 @@ You may remember this website being different, i kind of just changed it be simp
 <br>
 
 amyspark-ng
-
-</div>
