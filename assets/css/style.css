@@ -27,7 +27,7 @@ hr {
 }
 
 .dark-theme {
-	background-image: url("../assets/hmm/dark-bg.png");
+	background-image: url("../hmm/dark-bg.png");
 	background-size: none;
 	--cardColor: rgba(15, 13, 20, 0.641);
 }
@@ -39,7 +39,7 @@ body {
 	scroll-behavior: smooth;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("../assets/hmm/light-bg.gif");
+	background-image: url("../hmm/light-bg.gif");
 }
 
 ::-webkit-scrollbar {
