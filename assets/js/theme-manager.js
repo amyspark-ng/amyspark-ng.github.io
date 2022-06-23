@@ -28,7 +28,6 @@ function themeToggler() {
 		darkMode = 'true'
 		localStorage.setItem('darkMode', darkMode)
 
-		document.body.classList.toggle("dark-theme")
 		themer.setAttribute("d", sunPath)
 	}
 
@@ -37,9 +36,9 @@ function themeToggler() {
 		darkMode = 'false'
 		localStorage.setItem('darkMode', darkMode)
 
-		document.body.classList.toggle("dark-theme")
 		themer.setAttribute("d", moonPath)
 	}
 
+	document.body.classList.toggle("dark-theme")
 	console.log(`Dark mode is now: ${darkMode}`)
 }
