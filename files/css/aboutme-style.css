@@ -1,0 +1,39 @@
+img {
+	cursor: pointer;
+}
+
+#card {
+	width: 680px;
+	height: 620px;
+}
+
+#generalList {
+	font-size: 20px;
+	color: white;
+}
+
+.index {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+#avatarText {
+	margin-top: 30px;
+	text-decoration: underline;
+}
+
+.contact-icon {
+	width: 100px;
+	height: 100px;
+
+	margin-right: 40px;
+
+	fill: white;
+	cursor: pointer;
+}
+
+.contact-icon:hover {
+	width: 110px;
+	height: 110px;
+}

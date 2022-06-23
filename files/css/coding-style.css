@@ -1,0 +1,39 @@
+.text {
+	color: white;
+}
+
+.centered {
+	text-align: center;
+}
+
+.paragraph {
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#card {
+	width: 660px;
+}
+
+#unmainText {
+	font-size: 40px;
+
+	text-align: center;
+}
+
+#stats {
+	/* border: 5px solid rgb(241, 234, 253); */
+	border-radius: 2%;
+	box-shadow: 0 4px 2px rgb(0 0 0 / 30%);	
+}
+
+#reposDiv {
+	text-align: center;
+}
+
+#repoThing {
+	margin-top: 20px;
+	box-shadow: 0 4px 2px rgb(0 0 0 / 30%);	
+}

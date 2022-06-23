@@ -1,0 +1,120 @@
+html {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+:root {
+	--aboutmeColor: rgb(197, 161, 255);
+	--gamesColor: rgb(255, 133, 170);
+	--codingColor: rgb(180, 222, 245);
+}
+
+.iconSocial {
+	fill: whitesmoke;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	margin-left: 9px; margin-right: 9px;
+}
+
+.pageList {
+	text-align: center;
+	color: white;
+	font-size: 34px;
+}
+
+.pageList svg {
+	width: 32px; height: 32px; 
+	fill: white;
+}
+
+.pageList:hover svg {
+	width: 33.5px; height: 33.5px; 
+}
+
+/* #region inidivual hoverss stuff */
+#pfp:hover {
+	width: 208px;
+	height: 208px;
+	border: 5px solid rgb(195, 158, 255);
+}
+
+#sparkText:hover {
+	font-size: 65px;
+	text-shadow: 1px 2px 10px #ffffff3c;
+}
+
+#card {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#hoverAboutme:hover {
+	color: var(--aboutmeColor);
+	font-size: 36px;
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+
+#hoverGames:hover {
+	color: var(--gamesColor);
+	font-size: 36px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#hoverCoding:hover {
+	color: var(--codingColor);
+	font-size: 36px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#hoverTwitter:hover {
+	width: 65px;
+	height: 65px;
+
+	fill: rgb(29, 161, 242);
+}
+
+#hoverItch:hover {
+	width: 65px;
+	height: 65px;
+
+	fill: rgb(255, 91, 129);
+}
+
+#hoverGit:hover {
+	width: 65px;
+	height: 65px;
+
+	fill: rgb(31, 31, 31);
+}
+
+#hoverNg:hover {
+	width: 65px;
+	height: 65px;
+
+	fill: rgb(255, 152, 83);
+}
+
+#pagesText {
+	text-align: center;
+	font-size: 24px;
+}
+
+#pfp {	
+	border: 5px solid rgb(225, 206, 255);
+	border-radius: 50%;
+	
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	box-shadow: 0 4px 2px rgb(0 0 0 / 30%);
+}
+
+#sometimesText:hover {
+	font-size: 22px;
+	font-style: italic;
+}
