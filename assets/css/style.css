@@ -27,7 +27,7 @@ hr {
 }
 
 .dark-theme {
-	background-image: url("../hmm/dark-bg.png");
+	background-image: url("../hmm/light-bg.gif");
 	background-size: none;
 	--cardColor: rgba(15, 13, 20, 0.641);
 }
