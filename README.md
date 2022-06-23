@@ -16,12 +16,14 @@ You may remember this website being different, i kind of just changed it be simp
 
 <br>
 
-<div style="text-align: center;">
+<div align="center">
 
 <a href="amyspark-ng.is-a.dev">
-	<img style="width: 100px;" src="files/assets/aubrey-omori.gif">
+	<img width="100px" src="assets/aubrey-omori.gif">
 </a>
 
 <br>
 
 amyspark-ng
+
+</div>
